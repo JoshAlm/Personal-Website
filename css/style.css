@@ -1,3 +1,41 @@
-li {
-	font-style: italic;
+
+
+.navbar {
+	height: 10vh;
+}
+
+
+.fill-browser {
+	height: 90vh;
+}
+
+.project-title {
+	height: 15vh;
+}
+
+.project-info {
+	height: 75vh;
+}
+
+.introduction {
+	background-image: url("../images/mountain.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.contact {
+	background-image: url("../images/mountain.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+body {
+	padding-top: 10vh;
+}
+
+img {
+	max-width:100%;
+	max-height:100%;
 }
