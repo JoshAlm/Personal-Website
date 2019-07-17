@@ -1,4 +1,21 @@
 
+/*
+Type Selectors
+*/
+
+body {
+	padding-top: 10vh;
+}
+
+img {
+	max-width:100%;
+	max-height:100%;
+}
+
+
+/*
+Class Selectors
+*/
 
 .navbar {
 	height: 10vh;
@@ -17,25 +34,32 @@
 	height: 75vh;
 }
 
-.introduction {
-	background-image: url("../images/mountain.jpg");
+.has-background-image {
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
+}
+
+
+.about {
+	background-image: url("../images/mountain.jpg");
 }
 
 .contact {
 	background-image: url("../images/mountain.jpg");
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
 }
 
-body {
-	padding-top: 10vh;
+/*
+Mixed Selectors
+*/
+
+a.anchor {
+	display: block;
+	position: relative;
+	top: -10vh;
+	visibility: hidden;
 }
 
-img {
-	max-width:100%;
-	max-height:100%;
-}
+/*
+ID Selectors
+*/
