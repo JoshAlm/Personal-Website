@@ -31,50 +31,71 @@
 			<!-- NavBar -->
 			<div class="row">
 				<div class="col-xs col-md">
-					<nav class="navbar navbar-expand-md fixed-top navbar-light bg-light">
+					<nav class="navbar navbar-expand-md fixed-top navbar-light">
 						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-						<span class="navbar-toggler-icon"></span>
+							<span class="navbar-toggler-icon"></span>
 						</button>
+						
 						<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 							<div class="navbar-nav">
-								<a class="nav-item nav-link active" href="#about">About <span class="sr-only">(current)</span></a>
+								<a class="nav-item nav-link" href="#about">About</a>
+								<a class="nav-item nav-link" href="#skills">Skills</a>
 								<a class="nav-item nav-link" href="#project-1">Project1</a>
 								<a class="nav-item nav-link" href="#project-2">Project2</a>
 								<a class="nav-item nav-link" href="#contact">Contact</a>
 							</div>
 						</div>
+						<a class="nav-item nav-link" href="images/resume.pdf" target="_blank" rel="nofollow noopener noreferrer">Resume</a>
 					</nav>
 				</div>
 			</div>
 			
 			<!-- About Section -->
 			<a class="anchor" id="about"></a>
-			<div class="row align-items-center about fill-browser has-background-image">
-				<div class="col-xs-12 col-md-5 offset-md-1 bg-secondary">
-					<img class="rounded-circle" src="images/square.jpg" alt="A square">
+			<div class="row align-items-center about fill-browser">
+				<div class="text-center col-xs-12 col-md-5 offset-md-1">
+					<img class="rounded-circle" src="images/profile.png" alt="Joshua Almonte">
 				</div>
-				<div class="col-xs-12 col-md-5 bg-primary">
+				<div class="col-xs-12 col-md-5">
 					<h1>Joshua Almonte</h1>
 					<h3>"Quote"</h3>
 					<p>Description of Joshua</p>
 				</div>
 			</div>
 			
+			<!-- Skill Section -->
+			<a class="anchor" id="skills"></a>
+			<div class="row align-items-center skills fill-browser">
+				<div class="col-xs col-md">
+					<p>Skills</p>
+					<ul>
+						<li>Programming Languages</li>
+						<li>Softwares</li>
+						<li>Frameworks and Engines</li>
+						<li>Creative???</li>
+					</ul>
+				</div>
+			</div>
+			
+			
 			<!-- Project1 Section -->
 			<a class="anchor" id="project-1"></a>
 			<div class="project">
 				<div class="row project-title">
-					<div class="col-xs col-md bg-primary">
-						Project Title
+					<div class="col-xs col-md">
+						<p>Project Title</p>
 					</div>
 				</div>
 				<div class="row project-info">
-					<div class="col-xs col-md bg-secondary">
-						Picture
+					<div class="col-xs col-md">
 						<img src="images/cafe.jpg" alt="A cafe">
 					</div>
-					<div class="col-xs col-md bg-success">
-						Info
+					<div class="project-description col-xs col-md">
+						<p>Info</p>
+						<ul>
+							<li>Skill Item1</li>
+							<li>Skill Item2</li>
+						</ul>
 					</div>
 				</div>
 			</div>
@@ -84,31 +105,57 @@
 			<div class="project">
 				<div class="row project-title">
 					<div class="col-xs col-md bg-danger">
-						Project Title
+						<p>Project Title</p>
 					</div>
 				</div>
 				<div class="row project-info">
 					<div class="col-xs col-md bg-secondary">
-						Picture
 						<img src="images/cafe.jpg" alt="A cafe">
 					</div>
-					<div class="col-xs col-md bg-success">
-						Info
+					<div class="project-description col-xs col-md bg-success">
+						<p>Info</p>
+						<ul>
+							<li>Skill Item1</li>
+							<li>Skill Item2</li>
+						</ul>
 					</div>
 				</div>
 			</div>
 			
 			<!-- Contact Section -->
 			<a class="anchor" id="contact"></a>
-			<div class="row contact fill-browser has-background-image">
-				<div class="col-xs col-md">
-					<p>Contact me</p>
-					<p>;)</p>
+			<div class="contact">
+				<div class="row contact-info align-items-center">
+					<div class="col-xs col-md">
+						<p>Contact me</p>
+						<!-- Going to seperate this into bootstrap columns -->
+						<ul>
+							<li><img class="icon-link" src="images/square.jpg" alt="A square">LinkedIn</li>
+							<li><img class="icon-link" src="images/square.jpg" alt="A square">GitHub</li>
+							<li><img class="icon-link" src="images/square.jpg" alt="A square">itch.io</li>
+							<li><img class="icon-link" src="images/square.jpg" alt="A square">SketchFab</li>
+							<li><img class="icon-link" src="images/square.jpg" alt="A square">Email</li>
+						</ul>
+						<p>;)</p>
+					</div>
+					
 				</div>
+				
+				<div class="row contact-footer align-items-center">
+					<div class="col-xs col-md ">
+						<footer>
+							<p>hi it's me: the footer</p>
+						</footer>
+					</div>
+				</div>
+					
 			</div>
 			
 		</div>
 
+
+		
+		
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="js/jquery.min.js"></script>
