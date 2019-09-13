@@ -24,6 +24,20 @@
 		<!-- Custom CSS -->
 		<link rel="stylesheet" href="css/style.css">
 		
+		
+
+		
+		
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script> -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+		
+		
+		<!-- Scripting -->
+		<script src="js/back.js"></script>
+		
     <title>Joshua Almonte</title>
   </head>
   
@@ -41,11 +55,11 @@
 						
 						<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 							<div class="navbar-nav">
-								<a class="nav-item nav-link" href="#about">About</a>
-								<a class="nav-item nav-link" href="#skills">Skills</a>
+								<a class="nav-item nav-link about-link" href="#about">About</a>
+								<a class="nav-item nav-link skills-link" href="">Skills</a>
 								<!-- <a class="nav-item nav-link" href="#experience">Experience</a> -->
-								<a class="nav-item nav-link" href="#projects">Projects</a>
-								<a class="nav-item nav-link" href="#contact">Contact</a>
+								<a class="nav-item nav-link projects-link" href="#projects">Projects</a>
+								<a class="nav-item nav-link contact-link" href="#contact">Contact</a>
 							</div>
 						</div>
 						<a class="nav-item nav-link" href="images/resume.pdf" target="_blank" rel="nofollow noopener noreferrer">
@@ -63,9 +77,9 @@
 				</div>
 				<div class="text-center text-md-left col-xs-8 col-md-5 offset-md-1">
 					<h1>Joshua Almonte</h1>
-					<h3>"Aspire to Inspire"</h3>
+					<h3>Aspiring Full Stack Developer</h3>
 					<p>I'm a computer science student from the New Jersey Institute of Technology
-					trying to find my place as a software engineer. 
+					aspiring to become a full stack developer. 
 					I enjoy video games and their development, lending to my interests in creative
 					hobbies such as game design, drawing, playing the piano, and storytelling.</p>
 				</div>
@@ -77,18 +91,14 @@
 				<div class="col-xs col-md">
 					<h2>Technical Skills</h2>
 					<hr></hr>
-					<ul>
-						<li>Programming Languages</li>
-						<li>Python Java C# HTML CSS JavaScript SQL C++ C</li>
-						<li>Frameworks/Libraries</li>
-						<li>Bootstrap React Express</li>
-						<li>Softwares/Environments</li>
-						<li>Node.js Unity3D UnrealEngine</li>
-						<li>Version Control</li>
-						<li>Git</li>
-
-						
-					</ul>
+					<h3>Programming Languages</h3>
+					<p>Python Java C# HTML CSS JavaScript SQL</p>
+					<h3>Frameworks/Libraries</h3>
+					<p>Bootstrap React Express</p>
+					<h3>Softwares/Environments</h3>
+					<p>Node.js Unity3D UnrealEngine</p>
+					<h3>Version Control</h3>
+					<p>Git</p>						
 				</div>
 			</div>
 			
@@ -101,13 +111,14 @@
 			
 			<!-- Projects Section -->
 			<a class="anchor" id="projects"></a>
-			<div class="projects fill-browser">
+			<div class="projects">
 				<div class="row align-items-center title-row">
 					<div class="col-xs col-md">
 						<h2>Projects</h2>
+						<hr></hr>
 					</div>
 				</div>
-				<div class="row align-items-center">
+				<div class="row align-items-center carousel-row">
 					<div class="col-xs col-md">
 						<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
 							<ol class="carousel-indicators">
@@ -116,40 +127,66 @@
 								<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
 								<li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
 								<li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+								<li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+								<li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+								<li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
 							</ol>
 							<div class="carousel-inner">
 								<div class="carousel-item active">
 									<img class="d-block w-100" src="images/imaginationheights.png" alt="Imagination Heights">
-									<div class="carousel-caption d-none d-md-block">
+									<div class="carousel-caption">
 										<h4>Imagination Heights</h4>
 										<p>An <i>Earthbound</i> inspired game jam game I made music and SFX for.</p>
 									</div>
 								</div>
 								<div class="carousel-item">
+									<img class="d-block w-100" src="images/microjam2.png" alt="MicroJam 2.0">
+									<div class="carousel-caption">
+										<h4>MicroJam 2.0</h4>
+										<p>A <i>WarioWare</i> themed game jam game I made 2 minigames for
+										with the Unreal Engine.</p>
+									</div>
+								</div>
+								<div class="carousel-item">
+									<img class="d-block w-100" src="images/superpunchfightersaga.png" alt="Super Punch Fighter Saga">
+									<div class="carousel-caption">
+										<h4>Super Punch Fighter Saga</h4>
+										<p>A turn-based RPG game I made in it's entirety using Python, Gimp, and SFXR.</p>
+									</div>
+								</div>
+								
+								<div class="carousel-item">
+									<img class="d-block w-100" src="images/keyboard.jpg" alt="Photo Shop Database">
+									<div class="carousel-caption">
+										<h4>Photo Shop Database</h4>
+										<p>A mock database developed utilizing HTML, JavaScript, PHP, and SQL</p>
+									</div>
+								</div>
+								<div class="carousel-item">
+									<img class="d-block w-100" src="images/keyboard.jpg" alt="Lexical Analyzer">
+									<div class="carousel-caption">
+										<h4>Lexical Analyzer</h4>
+										<p>A C++ program that parsed and evaluated a psuedo-coding language</p>
+									</div>
+								</div>
+								<div class="carousel-item">
+									<img class="d-block w-100" src="images/keyboard.jpg" alt="HTTP Client and Server">
+									<div class="carousel-caption">
+										<h4>HTTP Client and Server</h4>
+										<p>Python client and server programs that send/receive file GET requests through TCP sockets</p>
+									</div>
+								</div>
+								
+								<div class="carousel-item">
 									<img class="d-block w-100" src="images/heartache.png" alt="Heartache">
-									<div class="carousel-caption d-none d-md-block">
+									<div class="carousel-caption">
 										<h4>Heartache</h4>
 										<p>A level for a bullet hell game made in Unity3D.</p>
 									</div>
 								</div>
 								<div class="carousel-item">
-									<img class="d-block w-100" src="images/microjam2.png" alt="MicroJam 2.0">
-									<div class="carousel-caption d-none d-md-block">
-										<h4>MicroJam 2.0</h4>
-										<p>A <i>WarioWare</i> themed game jam game I made 2 minigames for
-										with the UnrealEngine.</p>
-									</div>
-								</div>
-								<div class="carousel-item">
-									<img class="d-block w-100" src="images/superpunchfightersaga.png" alt="Super Punch Fighter Saga">
-									<div class="carousel-caption d-none d-md-block">
-										<h4>Super Punch Fighter Saga</h4>
-										<p>A turn-based RPG game I made in it's entirety using Python, Gimp, and SFXR.
-									</div>
-								</div>
-								<div class="carousel-item">
-									<img class="d-block w-100" src="images/square.jpg" alt="Hoo2Play">
-									<div class="carousel-caption d-none d-md-block">
+									<img class="d-block w-100" src="images/desk.jpg" alt="Hoo2Play">
+									<div class="carousel-caption">
 										<h4>Hoo2Play</h4>
 										<p>A web app aimed to give character recommendations for
 										the game <i>League of Legends.</i> A work in-progress
@@ -180,7 +217,7 @@
 						<hr></hr>
 						<!-- Should seperate this into bootstrap columns -->
 						<ul>
-							<li><a href="#about" target="_blank" ><img class="icon-link" src="images/square.jpg" alt="A square"> Email</a></li>
+							<li><a href="mailto:almondj1024@yahoo.com"><img class="icon-link" src="images/square.jpg" alt="A square"> Email</a></li>
 							<li><a href="https://www.linkedin.com/in/joshua-almonte-0a74b115b/" target="_blank" ><img class="icon-link rounded" src="images/linkedin.png" alt="LinkedIn"> LinkedIn</a></li>
 							<li><a href="https://github.com/JoshAlm" target="_blank" ><img class="icon-link rounded" src="images/github.png" alt="GitHub"> GitHub</a></li>
 							<li><a href="https://jalmond.itch.io/" target="_blank" ><img class="icon-link rounded" src="images/itchio.png" alt="itch.io"> itch.io</a></li>
@@ -202,14 +239,6 @@
 			
 		</div>
 
-
-		
-		
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="js/jquery.min.js"></script>
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script> -->
-    <script src="js/bootstrap.bundle.min.js"></script>
   </body>
 	
 </html>

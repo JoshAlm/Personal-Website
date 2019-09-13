@@ -11,11 +11,15 @@ Should have a good BOLD text, a good Title/Heading text, and good "every other" 
 */
 
 
+/*
+Palettes...
+The Dark Blue to Beiges
+#165B9C, #78BEFF, #5EB1FF, #B37A1E, #FFC25E
+*/
 
 /* General Selectors */
 
 body {
-	padding-top: 10vh;
 	font-family: 'Lora', serif;
 	font-size: calc(0.9rem + 0.1vw);
 }
@@ -32,13 +36,13 @@ ul {
 }
 
 .fill-browser {
-	height: 90vh;
+	height: 100vh;
+	padding-top: 10vh;
 }
 
 a.anchor {
 	display: block;
 	position: relative;
-	top: calc(-10vh + 1px);
 	visibility: hidden;
 }
 
@@ -49,8 +53,9 @@ a.anchor {
 
 .navbar {
 	background-image: linear-gradient(to right, rgba(22, 91, 156, 1), rgba(130, 185, 237, 1));
+	background-color: none;
 	height: 10vh;
-	font-family: 'Literata';
+	font-family: 'Merriweather';
 	font-size: calc(1rem + 0.2vw);
 }
 
@@ -72,38 +77,42 @@ a.anchor {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
+	color: white;
 }
 
 .about img {
-	max-height: 400px;
+	max-height: 55vh;
+	max-width: 55vw;
+	height: auto;
+	width: auto;
 }
 
 .about h1 {
 	font-family: 'Merriweather';
 	font-style: bold;
-	font-size: calc(2.2rem + 2.2vw);
+	font-size: calc(2.1rem + 2.1vw);
 
 }
 
 .about h3 {
-	font-size: calc(1rem + 1vw);
-	padding-bottom: 2vh;
+	font-size: calc(1.1rem + 0.9vw);
+	padding-bottom: 1.5vh;
 }
 
 .about p {
-	font-size: calc(1rem + 0.1vw);
+	font-size: calc(0.9rem + 0.2vw);
 }
 
 
 /* "Skills Selection" Selectors */
 
 .skills {
-	/* background-image: linear-gradient(to bottom, #27a2b3, #5cccdb); */
-	background-color: #c8e1fa;
+	background-color: rgba(130, 185, 237, 1);
 	text-align: center;
 }
 
 .skills h2 {
+	font-weight: bold;
 	font-size: calc(2rem + 2vw);
 }
 
@@ -113,19 +122,18 @@ a.anchor {
 	color: black;
 	background-color: black;
 	margin-top: 0.05em;
-	margin-bottom: 20vh;
+	margin-bottom: 10vh;
 }
 
-.skills ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	/* placeholder size */
-	font-size: calc(1rem + 0.5vw);
-	text-align: left;
+.skills h3 {
+	font-weight: bold;
+	font-size: calc(1.1rem + 1.1vw);
 }
 
-
+.skills p {
+	font-size: calc(0.8rem + 0.8vw);
+	magin-bottom: 1vh;
+}
 
 
 
@@ -134,16 +142,32 @@ a.anchor {
 	text-align: center;
 }
 
-.projects .title-row{
+.title-row{
+	background-color: #eac180;
 	height: 15vh;
+	padding-top: 10vh;
 }
 
-.projects .title-row h2{
+.title-row h2{
 	font-size: calc(2rem + 2vw);
+}
+
+.title-row hr {
+	height: 2px;
+	width: 200px;
+	color: black;
+	background-color: black;
+	margin-top: 0.05em;
+}
+
+.carousel-row{
+	background-color: #eac180;
+	height: 85vh;
 }
 
 .projects .carousel {
 	margin: 0 auto;
+	margin-top: 5vh;
 	width: 70vw;
 }
 
@@ -171,16 +195,17 @@ a.anchor {
 }
 
 .contact-info {
-	background-image: linear-gradient(to bottom, #ffffff, rgba(130, 185, 237, 1));
-	height: 80vh;
+	background-image: linear-gradient(to bottom, #eac180, #B37A1E);
+	height: 90vh;
 }
 
 .contact a {
 	text-decoration: none;
+	color: black;
 }
 
 .contact h2 {
-	font-size: calc(2rem + 2vw);
+	font-size: calc(2.1rem + 2.1vw);
 }
 
 .contact hr {
@@ -202,6 +227,6 @@ a.anchor {
 }
 
 .contact-footer {
-	background-color: rgba(130, 185, 237, 1);
+	background-color: #B37A1E;
 	height: 10vh;
 }
