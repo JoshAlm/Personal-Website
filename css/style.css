@@ -175,17 +175,28 @@ a.anchor {
 	height: 70vh;
 }
 
+.projects .carousel-item a {
+	text-decoration: none;
+	color: rgba(220,220,220,1);
+	
+}
+
+.projects .carousel-item a:hover {
+	text-decoration: none;
+	color: white;
+}
 
 
 .carousel-item:after {
   content:"";
   display:block;
   position:absolute;
-  top:0;
+  top:20%;
   bottom:0;
   left:0;
   right:0;
-  background-image: linear-gradient(to top, rgba(0,0,0,0.8), rgba(0, 0, 0, 0.2));
+  background-image: linear-gradient(to top, rgba(0,0,0,0.8), rgba(0, 0, 0, 0));
+  pointer-events: none;
 }
 
 /* "Contact Section" Selectors*/
